@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
@@ -36,10 +37,10 @@
                     </g>
                 </svg>
             </li>
-            <li class="hide"><a class="rosa" href="#">home</a></li>
-            <li class="hide"><a class="azul" href="#">productos</a></li>
-            <li class="hide"><a class="verde" href="#">sobre mi</a></li>
-            <li class="hide"><a class="morado" href="#">contacto</a></li>
+            <li class="hide"><a  href="#bienvenida">hola :)</a></li>
+            <li class="hide"><a  href="#galeriaproductos">proyectos</a></li>
+            <li class="hide"><a  href="#sobremi">sobre mi</a></li>
+            <li class="hide"><a  href="#contacto">contacta</a></li>
             <li onclick=showVertical()><a class="circulo" href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"    width="60px" height="60px">
                         <style type="text/css">
@@ -64,85 +65,89 @@
                     </svg>
                 </a>
             </li>
-            <li class="hideOnMobile"><a class="rosa" href="#">home</a></li>
-            <li class="hideOnMobile"><a class="azul" href="#">productos</a></li>
-            <li class="hideOnMobile"><a class="verde" href="#">sobre mi</a></li>
-            <li class="hideOnMobile"><a class="morado" href="#">contacto</a></li>
+            <li class="hideOnMobile"><a href="#bienvenida">hola :)</a></li>
+            <li class="hideOnMobile"><a  href="#galeriaproductos">proyectos</a></li>
+            <li class="hideOnMobile"><a  href="#sobremi">sobre mi</a></li>
+            <li class="hideOnMobile"><a  href="#contacto">contacta</a></li>
         </ul>
     </nav>
 
-    <section class="hero">
+    <section id="bienvenida" class="hero">
         <div class="animacion">
-            <h1 class="hero__eyebrow">Bienvenida a
+            <h1 class="hero1">
+            Bienvenida a
+            </h1>
+            <div class="hero2">
                 <span class="wave" aria-label="mi portfolio">
                     <span class="ola">m</span><span class="ola">i</span><span class="ola space">&nbsp;</span>
                     <span class="ola">p</span><span class="ola">o</span><span class="ola">r</span><span class="ola">t</span><span class="ola">f</span><span class="ola">o</span><span class="ola">l</span><span class="ola">i</span><span class="ola">o</span>
                 </span>
-            </h1>
+            </div>
+
         </div>
     </section>
 
-    <section class="movimiento">
-  <div class="container">
-    <div class="items">
+    <section id="galeriaproductos" class="movimiento">
+        <div class="container">
+            <div class="items">
 
-      <div class="item">
-        <div class="itemwrapper">
-          <img src="img/cadenza_web.png" alt="">
-          <div class="imgoverlay"></div>
-          <div class="itemcopy">
-            <div class="itemname">.cadenza <span>botella de vino</span></div>
-            <div class="id">01</div>
-          </div>
+            <div class="item">
+                <div class="itemwrapper">
+                <img src="img/cadenza_web.png" alt=""></a>
+                <div class="imgoverlay"></div>
+                <div class="itemcopy">
+                    <div class="itemname">.cadenza <span>botella de vino</span></div>
+                    <a href="#cadenza"><div class="id">01</div></a>
+                </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="itemwrapper">
+                <img src="img/ragaire_web.png" alt="">
+                <div class="imgoverlay"></div>
+                <div class="itemcopy">
+                    <div class="itemname">.ragaire <span>asiendo de MDF</span></div>
+                    <a href="#ragaire"><div class="id">02</div></a>
+                </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="itemwrapper">
+                <img src="img/osoba_web.png" alt="">
+                <div class="imgoverlay"></div>
+                <div class="itemcopy">
+                    <div class="itemname">.osoba <span>expositor circular</span></div>
+                    <a href="#osoba"><div class="id">03</div>
+                </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="itemwrapper">
+                <img src="img/besoté_web.png" alt="">
+                <div class="imgoverlay"></div>
+                <div class="itemcopy">
+                    <div class="itemname">.besoté <span>tacón experimental</span></div>
+                    <a href="#besote"><div class="id">04</div></a>
+                </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="itemwrapper">
+                <img src="img/blastic_web.png" alt="">
+                <div class="imgoverlay"></div>
+                <div class="itemcopy">
+                    <div class="itemname">.blastic <span>bolso de crochet y plástico</span></div>
+                    <a href="#blastic"><div class="id">05</div></a>
+                </div>
+                </div>
+            </div>
+
+            </div>
         </div>
-      </div>
-
-      <div class="item">
-        <div class="itemwrapper">
-          <img src="img/ragaire_web.png" alt="">
-          <div class="imgoverlay"></div>
-          <div class="itemcopy">
-            <div class="itemname">.ragaire <span>asiendo de MDF</span></div>
-            <div class="id">02</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="item">
-        <div class="itemwrapper">
-          <img src="img/osoba_web.png" alt="">
-          <div class="imgoverlay"></div>
-          <div class="itemcopy">
-            <div class="itemname">.osoba <span>expositor circular</span></div>
-            <div class="id">03</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="item">
-        <div class="itemwrapper">
-          <img src="img/besoté_web.png" alt="">
-          <div class="imgoverlay"></div>
-          <div class="itemcopy">
-            <div class="itemname">.besoté <span>tacón experimental</span></div>
-            <div class="id">04</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="item">
-        <div class="itemwrapper">
-          <img src="img/blastic_web.png" alt="">
-          <div class="imgoverlay"></div>
-          <div class="itemcopy">
-            <div class="itemname">.blastic <span>bolso de crochet y plástico</span></div>
-            <div class="id">05</div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
     </section>      
         
     </div>
@@ -167,12 +172,12 @@
             </div>
         </div>
     </main>
-    <div class="sobre mi">
+    <div id="sobremi" class="sobre mi">
         <h1>Sobre mí</h1>
         <p>Hola, soy Teresa Morales, estudiante de Diseño Experimental en la Universidad de El Salvador. Me apasiona crear diseños innovadores y funcionales que mejoren la vida cotidiana. Este carrusel presenta algunos de mis productos destacados, cada uno diseñado con atención al detalle y un enfoque en la estética y la usabilidad. ¡Gracias por visitar mi portafolio!</p>
 
     </div>
-    <div class="proyecto1">
+    <div id="cadenza" class="proyecto1">
         <h1>Cadenza</h1>
         <h2>2023-2024</h2>
         <img src="img/cadenza_web.png" alt="">
@@ -181,6 +186,19 @@
             
         </div>
     </div>
+    <section id="contacto" class="contacto">
+        <div id="cadenza" class="proyecto1">
+            <h1>¿Quedamos?</h1>
+            <p>click aquí para mandarme un mensaje o escribeme a <span>mterj14cg@gmail.com</span>
+            </p>
+            <p>este es mi teléfono <span>690 73 86 81</span></p>
+            <p>mi linkedin</p>
+            <p>el instagram de tuti.tostao</p>
+            <div class="grid">
+                
+            </div>
+        </div>
+    </section>
     <script src="carusel.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>

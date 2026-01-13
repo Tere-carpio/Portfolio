@@ -8,7 +8,7 @@ html{
 body{
     min-height: 100vh;
     font-family: "Inter", sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.7;
     color: #f9f7f7;
     background-color: #a7b9a7cc;
@@ -121,6 +121,7 @@ nav a.circulo:hover{
     backdrop-filter: blur(20px);
 }
 
+/*Bienvenida-hero*/
 .hero{
     text-align: center;
     padding: 4rem 1.5em 2rem 1.5em;
@@ -262,9 +263,6 @@ h2{
     opacity: 0.5;
 }
 
-
-
-
 .grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -281,9 +279,6 @@ h2{
     .vertical{
         width: 100%;
     }
-}
-@media (prefers-reduced-motion: reduce){
-  *{ transition: none !important; }
 }
 
 /*expositor fotos*/
@@ -387,7 +382,45 @@ h2{
     cursor: url(img/mouse6.png), all-scroll;
 }
 
+/*Sobre mi*/
 
+.sobremi h1{
+    font-family: "Darumadrop One", sans-serif;
+    margin-bottom: 2rem;
+    color: #f9f7f7;
+}
+.sobremi{
+    background-color: #768876 ;
+    padding: 4rem 4rem;
+}
+.sobremi_img{
+    width: 60vw;
+    height: 70vh;
+    object-fit: cover;
+}
+.sobremi p{
+    
+}
+
+
+/*Contacta*/
+.contacto{
+    color: #f9f7f7;
+    background-color: #768876;
+    padding: 4rem 4rem ;
+}
+.contacto h1{
+    color: #f9f7f7;
+    margin-bottom: 2rem;
+    font-family: "Darumadrop One", sans-serif;
+}
+.contacto p{
+    margin-left: 4rem;
+    border: #e4a470;
+    display: block;
+    background-color: #262a2c; 
+    box-sizing: content-box; 
+}
 
 
 /*Proyectos*/

@@ -74,22 +74,33 @@ function colorRandom() {
 
 // Efecto ola en los spans de mi portfolio
 const waveContainers = document.querySelectorAll(".wave");
-  console.log("wave encontrados:", waveContainers.length);
-
-  waveContainers.forEach(contenedor => {
-    const chars = Array.from(contenedor.querySelectorAll(".ola"));
-
-    function limpiar() {
-      chars.forEach(ola => ola.classList.remove("is-active", "is-near", "is-far"));
-    }
-
-    chars.forEach((ola, i) => {
-      if (ola.classList.contains("space")) return;
-      ola.addEventListener("mouseenter", () => {
-        limpiar();
-        ola.classList.add("is-active");
-        //hice una cosa que era para que tuviera mas efecto de ola, pero realmente queda mejor asi. Movia los elementos cerca de la letra sobre la que se hace hover
-      });
+console.log("wave encontrados:", waveContainers.length);
+waveContainers.forEach(contenedor => {
+  const chars = Array.from(contenedor.querySelectorAll(".ola"));
+  function limpiar() {
+    chars.forEach(ola => ola.classList.remove("is-active", "is-near", "is-far"));
+  }
+  chars.forEach((ola, i) => {
+    if (ola.classList.contains("space")) return;
+    ola.addEventListener("mouseenter", () => {
+      limpiar();
+      ola.classList.add("is-active");
+      //hice una cosa que era para que tuviera mas efecto de ola, pero realmente queda mejor asi. Movia los elementos cerca de la letra sobre la que se hace hover
     });
-    contenedor.addEventListener("mouseleave", limpiar);
   });
+  contenedor.addEventListener("mouseleave", limpiar);
+});
+
+/*silder de las fotos solas*/
+  const track = document.querySelector(".pcgaleria");
+  const prev = document.querySelector(".antes");
+  const next = document.querySelector(".despues");
+
+  prev.addEventListener("click", () => {
+    track.scrollBy({ left: -track.clientWidth, behavior: "smooth" });
+  });
+
+  next.addEventListener("click", () => {
+    track.scrollBy({ left: track.clientWidth, behavior: "smooth" });
+  });
+  

@@ -502,6 +502,7 @@ nav a.circulo:hover{
     width: 100%;
     height: auto;
     border-radius: 0.5rem;
+    opacity: 0.85;
 }
 .blastic_text{
     display: block;
@@ -510,7 +511,7 @@ nav a.circulo:hover{
     font-size: 1rem;
 }
 .btitulo button{
-    background-color: #f9f7f766;
+    background-color: #aba7b366;
     border: none;
     border-radius: 2rem;
     color: #6b6575;
@@ -529,7 +530,7 @@ nav a.circulo:hover{
 .btitulo button:hover{
     box-shadow: 0 8px 20px #262a2c;
     transform: translateY(-2px);
-    background-color: #f9f7f7cc;
+    background-color: #f9f7f766;
     cursor: url(img/mouse6.png), all-scroll;
 }
 @media (max-width: 900px){
@@ -615,6 +616,7 @@ nav a.circulo:hover{
     width: 100%;
     height: auto;
     border-radius: 0.5rem;
+    opacity: 0.78;
 }
 .ragaire_text{
     display: block;
@@ -623,7 +625,7 @@ nav a.circulo:hover{
     font-size: 1rem;
 }
 .rtitulo button{
-    background-color: #f9f7f766;
+    background-color: #e4a47066;
     border: none;
     border-radius: 2rem;
     color: #c1783d;
@@ -642,7 +644,7 @@ nav a.circulo:hover{
 .rtitulo button:hover{
     box-shadow: 0 8px 20px #262a2c;
     transform: translateY(-2px);
-    background-color: #f9f7f7cc;
+    background-color: #f9f7f766;
     cursor: url(img/mouse6.png), all-scroll;
 }
 @media (max-width: 900px){
@@ -684,6 +686,347 @@ nav a.circulo:hover{
         display: block;
     }
     
+}
+
+/*cadenza con bootstrap*/
+.cadenza{
+    background-color: #d9b0a9;
+    margin: 0 auto;
+    padding: 2rem 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: #c98484;
+}
+.cdetalle{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.ctitulo{
+    align-items: center;
+    justify-content: center;
+}
+.ctitulo h2{
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+.ctitulo h3{
+    font-weight: 300;
+    font-size: 1rem;
+    font-style: italic;
+}
+.ctitulo .ultimo{
+    padding-bottom: 1.2rem;
+}
+.cadenza h1{
+    margin-bottom: 1rem;
+}
+.cadenza_img img{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    opacity: 0.8;
+}
+.cadenza_text{
+    display: block;
+    width: 75%;
+    padding-top: 2rem;
+    font-size: 1rem;
+}
+.ctitulo button{
+    background-color: #d9b0a966;
+    border: none;
+    border-radius: 2rem;
+    color: #c98484;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 0.5rem;
+    width: 10rem;
+    height: 3rem;
+    box-shadow: 0 4px 10px #262a2c;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    font-family: "Darumadrop One", sans-serif;  
+}
+.ctitulo a{
+    text-decoration: none;
+}
+.ctitulo button:hover{
+    box-shadow: 0 8px 20px #262a2c;
+    transform: translateY(-2px);
+    background-color: #f9f7f766;
+    cursor: url(img/mouse6.png), all-scroll;
+}
+@media (max-width: 900px){
+    .cgrupo{
+        flex-direction: column-reverse; /*asi esta la foto primero*/
+        align-items: flex-start;
+        display: flex;
+    }
+    .cadenza_text{
+        width: auto;
+        font-size: 0.9rem;
+        padding:  2rem 1rem;
+    }
+    .cadenza h1{
+        margin-bottom: 2rem;
+    }
+    .ctitulo h2{
+        margin: 1rem 0;
+        justify-content: flex-end;
+    }
+    .ctitulo{
+        display: block;
+        padding:  0 1rem;
+    } 
+    .cdetalle{
+        align-items: flex-start;
+        text-align: start;
+        width: auto;
+    }
+    .cadenza_img{
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 1rem 2rem;
+    }
+    .cadenza_img img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+}
+
+/*osoba con bootstrap*/
+.osoba{
+    background-color: #a8b4bd;
+    margin: 0 auto;
+    padding: 2rem 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: #6d8f96;
+}
+.odetalle{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.otitulo{
+    align-items: center;
+    justify-content: center;
+}
+.otitulo h2{
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+.otitulo h3{
+    font-weight: 300;
+    font-size: 1rem;
+    font-style: italic;
+}
+.otitulo .ultimo{
+    padding-bottom: 1.2rem;
+}
+.osoba h1{
+    margin-bottom: 1rem;
+}
+.osoba_img img{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    opacity: 0.85;
+}
+.osoba_text{
+    display: block;
+    width: 75%;
+    padding-top: 2rem;
+    font-size: 1rem;
+}
+.otitulo button{
+    background-color: #a8b4bd66;
+    border: none;
+    border-radius: 2rem;
+    color: #6d8f96;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 0.5rem;
+    width: 10rem;
+    height: 3rem;
+    box-shadow: 0 4px 10px #262a2c;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    font-family: "Darumadrop One", sans-serif;  
+}
+.otitulo a{
+    text-decoration: none;
+}
+.otitulo button:hover{
+    box-shadow: 0 8px 20px #262a2c;
+    transform: translateY(-2px);
+    background-color: #a8b4bd66;
+    cursor: url(img/mouse6.png), all-scroll;
+}
+@media (max-width: 900px){
+    .ogrupo{
+        flex-direction: column-reverse; /*asi esta la foto primero*/
+        align-items: flex-start;
+        display: flex;
+    }
+    .osoba_text{
+        width: auto;
+        font-size: 0.9rem;
+        padding:  2rem 1rem;
+    }
+    .osoba h1{
+        margin-bottom: 2rem;
+    }
+    .otitulo h2{
+        margin: 1rem 0;
+        justify-content: flex-end;
+    }
+    .otitulo{
+        display: block;
+        padding:  0 1rem;
+    } 
+    .odetalle{
+        align-items: flex-start;
+        text-align: start;
+        width: auto;
+    }
+    .osoba_img{
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 1rem 2rem;
+    }
+    .osoba_img img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+}
+
+/*besoté con bootstrap*/
+.besote{
+    background-color: #ffedc0;
+    margin: 0 auto;
+    padding: 2rem 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: #edb35c;
+}
+.bedetalle{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.betitulo{
+    align-items: center;
+    justify-content: center;
+}
+.betitulo h2{
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+.betitulo h3{
+    font-weight: 300;
+    font-size: 1rem;
+    font-style: italic;
+}
+.betitulo .ultimo{
+    padding-bottom: 1.2rem;
+}
+.besote h1{
+    margin-bottom: 1rem;
+}
+.besote_img img{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    opacity: 0.78;
+}
+.besote_text{
+    display: block;
+    width: 75%;
+    padding-top: 2rem;
+    font-size: 1rem;
+}
+.betitulo button{
+    background-color: #ffedc066;
+    border: none;
+    border-radius: 2rem;
+    color: #edb35c;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 0.5rem;
+    width: 10rem;
+    height: 3rem;
+    box-shadow: 0 4px 10px #262a2c;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    font-family: "Darumadrop One", sans-serif;  
+}
+.betitulo a{
+    text-decoration: none;
+}
+.betitulo button:hover{
+    box-shadow: 0 8px 20px #262a2c;
+    transform: translateY(-2px);
+    background-color: #ffedc066;
+    cursor: url(img/mouse6.png), all-scroll;
+}
+@media (max-width: 900px){
+    .begrupo{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        display: flex;
+    }
+    .besote_text{
+        width: auto;
+        font-size: 0.9rem;
+        padding:  2rem 1rem;
+    }
+    .besote h1{
+        margin-bottom: 2rem;
+    }
+    .betitulo h2{
+        margin: 1rem 0;
+        justify-content: flex-end;
+    }
+    .betitulo{
+        display: block;
+        padding:  0 1rem;
+    } 
+    .bedetalle{
+        align-items: flex-start;
+        text-align: start;
+        width: auto;
+    }
+    .besote_img{
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 1rem 2rem;
+    }
+    .besote_img img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
 }
 
 /*Contacta*/

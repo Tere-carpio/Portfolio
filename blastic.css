@@ -14,74 +14,73 @@ h1{
     padding-top: 5rem;
 }
 body{
-    background-color: #d9b0a9;
-    color: #f9f7f7;
+    background-color: #aba7b3;
+    color: #6b6575;
     font-family: "Inter", sans-serif ;
     justify-content: center;
     align-items: center;
     font-size: 1.5rem; 
     overflow-x: hidden;
-    
 }
-.pcadenza{
+.pbesote{
     margin: 0 auto;
     padding: 2rem 5rem;
     padding-top: 1rem;
     padding-bottom: 5rem;
-    color: #c98484;
 }
-.pcgrupo{
+.pbegrupo{
     justify-content: start;
     align-items: start;
     display: flex;
     flex-direction: column;
 }
 
-.pcgrupo h2{
+.pbesote h2{
     font-weight: 700;
     font-size: 1.2rem;
     font-style: italic;
 }
-.cbrief{
-    justify-content: flex-end;
-}
-.pcadenza p{
+.pbesote p{
     display: block;
     width: 85%;
     text-align: justify;
     font-size: 1rem;
 }
-.pcadenza li{
+.pbesote li{
     font-weight: 500;
     font-size: 1rem;
     padding-bottom: 0;
 }
-.ctitulo{
+.pbetexto{
+    height: auto;
+}
+.betitulo{
     width: 100%;
     flex-direction: row;
     display: flex;
 }
+.belineas{
+    justify-content: flex-end;
+}
 .joker{
     height: 17rem;
 }
-.pctexto{
-    height: auto;
-}
 
-.cslider{
+/*SLIDER*/
+.beslider{
     width: 100%;
     height: 60vh;
     overflow: hidden;
     position: relative;
 }
-.pcgaleria{
+.begaleria{
     display: flex;
     scroll-behavior: smooth;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     height: 100%;
 }
-.pcgaleria::-webkit-scrollbar{
+.begaleria::-webkit-scrollbar{
     display: none;
 }
 .id{
@@ -110,7 +109,7 @@ body{
 }
 
 /*botones slider*/
-.cboton{
+.beboton{
     bottom: 12rem;
     z-index: 10;
     width: 3rem;
@@ -120,46 +119,46 @@ body{
     cursor: pointer;
     font-size: 2rem;
     padding-bottom: 2rem;
-    color: #c27f7f;
-    background: #d9b0a966;
+    color: #6b6575;
+    background: #aba7b366;
     box-shadow: 0 2px 20px 2px #262a2ccc;
     position: absolute;
     justify-content: center;
-    align-items: center;  
+    align-items: center; 
 }
-.cboton:hover{
-    background-color: #d9b0a9;
+.beboton:hover{
+    background-color: #aba7b3;
     transform: scale(1.02);
     cursor: url(img/mouse6.png), all-scroll;
 }
-.cboton.antes{
+.beboton.antes{
     left: 2rem;
     right: auto;
     margin-left: 2rem;
 }
-.cboton.despues{ /*se ponen juntos sin espacio por que sino es como si fuera child de*/
+.beboton.despues{ /*se ponen juntos sin espacio por que sino es como si fuera child de*/
     right: 2rem;
     left: auto;
     margin-right: 2rem;
 }
 
 @media (max-width: 900px){
-    .ctitulo{
+    .otitulo{
         width: auto;
         height: auto;
         flex-direction: column;
     }
-    .cbrief.col-6{
+    .olineas.col-6{
         width: auto;
     }
-    .cconcepto.col-6{
+    .oconcepto.col-6{
         width: auto;
     }
-    .cboton{
+    .oboton{
         background-color: 0;
         box-shadow: 0 0 0 0 #262a2ccc;
         opacity: 40%;
-        color: #c27f7f;
+        color: #6b6575;
     } 
     /*no me ha dado a hacerlo perfecto el responsive :/*/
 }
@@ -173,10 +172,10 @@ body{
     height: 100%;
     padding: 0 2rem;
     box-sizing: border-box;
-    background-color: #ffedc066;
+    background-color: #6b657566;
 }
 .volver button{
-    color: #c27f7f;
+    color: #6b6575;
     font-family: "Darumadrop One", sans-serif;
     border: none;
     border-radius: 2rem;
@@ -185,7 +184,7 @@ body{
     cursor: url(img/mouse6.png), all-scroll;
 }
 .volver button:hover{
-    background-color: #d9b0a966;
+    background-color: #6b657566;
 }
 a{
     text-decoration: none;

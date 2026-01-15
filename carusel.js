@@ -91,8 +91,21 @@ waveContainers.forEach(contenedor => {
   contenedor.addEventListener("mouseleave", limpiar);
 });
 
-/*silder de las fotos solas*/
+/*silder de las fotos solas de los proyectos*/
   const track = document.querySelector(".pcgaleria");
+  const prev = document.querySelector(".antes");
+  const next = document.querySelector(".despues");
+
+  prev.addEventListener("click", () => {
+    track.scrollBy({ left: -track.clientWidth, behavior: "smooth" });
+  });
+
+  next.addEventListener("click", () => {
+    track.scrollBy({ left: track.clientWidth, behavior: "smooth" });
+  });
+  
+  /*silder de las fotos solas de los proyectos*/
+  const track = document.querySelector(".pogaleria");
   const prev = document.querySelector(".antes");
   const next = document.querySelector(".despues");
 
